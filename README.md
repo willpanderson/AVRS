@@ -4,11 +4,11 @@ The Automated Vending and Reservation Service (AVRS) is a IoT vending machine pr
 
 The contributors to the project are ( in alphabetical order):
 
-William Anderson
+William Anderson (https://github.com/willpanderson)
 
-Han Le
+Han Le (https://github.com/hanle1220)
 
-Sean Slater 
+Sean Slater (find github for this)
 
-Noah Walker 
+Noah Walker (https://github.com/arkbuilder117)
 
