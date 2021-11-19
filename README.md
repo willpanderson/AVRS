@@ -1,12 +1,14 @@
-# SeniorDesignProject
+# Automated Vending & Reservation System (AVRS)
 
+The Automated Vending and Reservation Service (AVRS) is a IoT vending machine proof-of-concept for our Seinor Design project at The University of Texas at Arlington. 
 
-Mobile App User attributes
-- Phone Number ( Phone number -> send verfication code -> verification code is authenicated -> home screen)
-- Order History ( contains a aggregated list of all  order objects)
-- Account Balance ( money stored in user account already)
-- Payment System (money and all card info stored on a card object)
+The contributors to the project are ( in alphabetical order):
 
- APM attributes
- - inventory list ( aggregate of all snack objects, 
- - reservation list ( contians all reservation order objects in the system)
+William Anderson
+
+Han Le
+
+Sean Slater 
+
+Noah Walker 
+
