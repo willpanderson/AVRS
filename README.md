@@ -15,3 +15,18 @@ Sean Slater (find github for this)
 
 Noah Walker (https://github.com/arkbuilder117)
 
+
+The mobile app was developed using React Native, Firebase Authenication and Firestore services
+
+
+
+
+The software developed for the AVRS Physical Machine (APM) is based on Ubuntu and uses Flutter and Firestore.
+
+
+The database setup uses a NoSQL, non-relational database system to manage orders, items and inventory.
+
+
+
+
+
