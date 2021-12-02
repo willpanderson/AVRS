@@ -11,7 +11,7 @@ William Anderson (https://github.com/willpanderson)
 
 Han Le (https://github.com/hanle1220)
 
-Sean Slater (find github for this)
+Sean Slater (https://github.com/da-coder)
 
 Noah Walker (https://github.com/arkbuilder117)
 
