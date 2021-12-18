@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452168744554",
+    "project_id": "avrs-29e3d",
+    "storage_bucket": "avrs-29e3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452168744554:android:bcd8a37a3c185418d8d413",
+        "android_client_info": {
+          "package_name": "com.avrs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452168744554-3t5e604ilj31a078ioe4qoj5an25sd0n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByn1t1W_pKWg5YkoB4Ye9pLgmYw28mR6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452168744554-3t5e604ilj31a078ioe4qoj5an25sd0n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
