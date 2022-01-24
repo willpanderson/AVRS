@@ -16,7 +16,7 @@ Sean Slater (https://github.com/da-coder)
 Noah Walker (https://github.com/arkbuilder117)
 
 
-The mobile app was developed using React Native, Firebase Authenication and Firestore services
+The mobile app will be developed using React Native, Firebase Authenication and Firestore services
 
 
 
