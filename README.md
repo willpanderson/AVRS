@@ -1,6 +1,6 @@
 # Automated Vending & Reservation System (AVRS)
 
-Our website link is www.avrs.sytes.com
+
 
 
 The Automated Vending and Reservation Service (AVRS) is a IoT vending machine proof-of-concept for our Seinor Design project at The University of Texas at Arlington. 
