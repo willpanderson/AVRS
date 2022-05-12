@@ -3,18 +3,15 @@ import { auth } from '../firebase';
 import { signInWithEmailAndPassword } from "firebase/auth";
 
 import { View, Text, TextInput, Pressable, StyleSheet } from 'react-native';
-//import { AuthContext } from './App.js'; 
 
 const LoginPage = (props) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    //const { login } = React.useContext(AuthContext);
-
     const handleSignIn = () => {
         signInWithEmailAndPassword(auth, email, password)
-            .then((re) => {
-                console.log(re.email);
+            .then((userCredential) => {
+                console.log("LoginPage " + userCredential.user.email);
                 props.logInChange();
             })
             .catch(error => alert(error.message))
@@ -25,18 +22,20 @@ const LoginPage = (props) => {
             <TextInput
                 style={styles.phoneInput}
                 value={email}
-                onChangeText={text => setEmail(text)}
+                onChangeText={setEmail}
                 keyboardType='email-address'
                 placeholder='Email'
                 autoCapitalize='none'
+                autoFocus= {true}
             />
 
             <TextInput
                 style={styles.phoneInput}
                 value={password}
-                onChangeText={text => setPassword(text)}
+                onChangeText={setPassword}
                 keyboardType='default'
                 placeholder='Password'
+                // placeholderTextColor={'dimgray'}
                 secureTextEntry
             />
 
@@ -68,6 +67,7 @@ const styles = StyleSheet.create({
         height: 50,
         borderRadius: 10,
         margin: 15,
+        padding: 10,
         bottom: 100,
     },
     verify: {

@@ -10,8 +10,8 @@ const SignUpPage = (props) => {
 
     const handleSignUp = () => {
         createUserWithEmailAndPassword(auth, email, password)
-            .then((re) => {
-                console.log(re.email);
+            .then((userCredential) => {
+                console.log(userCredential.user.email);
                 props.logInChange();
             })
             .catch(error => alert(error.message))

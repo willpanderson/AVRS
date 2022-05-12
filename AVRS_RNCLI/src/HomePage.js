@@ -15,8 +15,8 @@ class HomePage extends React.Component {
 
     state = {
         signUp: false,
-        login: false,
-        logedIn: false,
+        login: true,
+        logedIn: true,
     }
 
     signUpPress = () => {

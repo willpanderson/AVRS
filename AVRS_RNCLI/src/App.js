@@ -8,11 +8,11 @@ import { func } from 'prop-types';
 
 class App extends React.Component {
     state = {
-        isLoggedIn: false,
+        isLoggedIn: true,
     };
 
     logInOut = () => {
-        let loggedIn = !loggedIn;
+        let loggedIn = !this.state.isLoggedIn;
         this.setState({
             isLoggedIn: loggedIn,
         });
@@ -21,12 +21,13 @@ class App extends React.Component {
 
     render() {
         if (this.state.isLoggedIn == true) {
-            return <MainMenu />
+            return <MainMenu logInChange={this.logInOut}/>
+        } else {
+            return (
+                <HomePage logInChange={this.logInOut} />
+            )
         }
 
-        return (
-            <HomePage logInChange={this.logInOut} />
-        )
     }
 }
 
