@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for MenuItem component Renders correctly 1`] = `
+<View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderColor": "black",
+          "borderRadius": 10,
+          "borderWidth": 1,
+          "height": 150,
+          "justifyContent": "center",
+          "margin": 10,
+          "width": 150,
+        },
+        Object {},
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "/Users/noahwalker/AVRS/AVRS_RNCLI/src/img/white.png",
+        }
+      }
+      style={
+        Object {
+          "height": 100,
+          "width": 100,
+        }
+      }
+    />
+    <Text>
+      snack
+    </Text>
+  </View>
+</View>
+`;
