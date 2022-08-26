@@ -43,7 +43,7 @@ describe('Tests for CartItem component.', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Add a snack', () => {
+  it('Clicking + adds one to the count shown on screen', () => {
     const {getByText} = render(
       <CartProviderr.default>
         <CartItem item={0} key={0} />

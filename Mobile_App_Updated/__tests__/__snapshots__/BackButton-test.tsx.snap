@@ -18,8 +18,9 @@ exports[`Tests for BackButton component Renders correctly 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#377888",
-          "width": 50,
+          "alignItems": "center",
+          "borderRadius": 10,
+          "justifyContent": "center",
         },
         Object {},
       ]
@@ -27,6 +28,27 @@ exports[`Tests for BackButton component Renders correctly 1`] = `
   >
     <Text>
       Back
+    </Text>
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 35,
+          },
+          undefined,
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
     </Text>
   </View>
 </View>

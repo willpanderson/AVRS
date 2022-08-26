@@ -3,7 +3,6 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import MenuItem from '../src/components/MenuItem';
 import {fireEvent, render} from '@testing-library/react-native';
-// import * as firebase from 'firebase/storage';
 
 describe('Tests for MenuItem component', () => {
   const snack = {
@@ -31,12 +30,6 @@ describe('Tests for MenuItem component', () => {
   });
 
   it('Click snack to add to cart', () => {
-    // jest.spyOn(firebase, 'getDownloadURL').mockImplementation(() => {
-    //   return new Promise(() => {
-    //     return 'hello';
-    //   });
-    // });
-
     const {getByText} = render(
       <MenuItem snack={snack} onSnackPress={onSnackPress} />,
     );

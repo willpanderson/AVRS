@@ -1,12 +1,7 @@
-/**
- * @format
- */
-
 import 'react-native';
 import React from 'react';
 import App, {AuthContext} from '../App';
 
-// Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 import AuthScreen from '../src/screens/AuthScreen';
 import CartScreen from '../src/screens/CartScreen';
@@ -43,8 +38,6 @@ describe('Testing if screens will render', () => {
     jest.mock('@react-navigation/native', () => ({
       useIsFocused: () => true,
     }));
-
-    // const useIsFocussed = jest.fn();
 
     jest.mock('@react-navigation/native', () => {
       const actualNav = jest.requireActual('@react-navigation/native');

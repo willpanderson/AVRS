@@ -1,6 +1,3 @@
-/**
- * @format
- */
 import 'react-native';
 import SettingsPage from '../src/screens/SettingsScreen';
 import React from 'react';
