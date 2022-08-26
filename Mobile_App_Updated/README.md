@@ -17,7 +17,7 @@ TypeScript was used to provide static type checking.
 
 `Unit Tests`
 All components and screens have associated render tests.
-Each component have a corresponding test suit with unit tests.
+Each component has a corresponding test suit with unit tests.
 
 Example:
 Clicking + adds one to the count shown on screen.
