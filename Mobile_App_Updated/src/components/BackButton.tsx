@@ -1,4 +1,4 @@
-import {Pressable, StyleSheet, View} from 'react-native';
+import {Pressable, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
 // import Icon from '';
@@ -12,6 +12,7 @@ const BackButton = (props: {
       <Pressable
         style={({pressed}) => [styles.button, pressed ? {opacity: 0.8} : {}]}
         onPress={() => props.backPress(props.args)}>
+        <Text>Back</Text>
         <Icon name="chevron-back" size={35} />
       </Pressable>
     </View>
@@ -25,5 +26,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
+  },
+  buttonText: {
+    display: 'none',
   },
 });
