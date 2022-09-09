@@ -14,9 +14,9 @@ describe('Tests for BackButton component', () => {
 
   it('Click button calls passed function', () => {
     const setInputType = jest.fn();
-    const {getByText} = render(<BackButton backPress={setInputType} />);
+    const {getByLabelText} = render(<BackButton backPress={setInputType} />);
 
-    fireEvent.press(getByText('Back'));
+    fireEvent.press(getByLabelText('back'));
     expect(setInputType).toBeCalled();
   });
 });

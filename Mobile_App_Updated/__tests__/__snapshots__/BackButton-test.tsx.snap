@@ -3,6 +3,7 @@
 exports[`Tests for BackButton component Renders correctly 1`] = `
 <View>
   <View
+    accessibilityLabel="back"
     accessible={true}
     collapsable={false}
     focusable={true}
@@ -26,9 +27,6 @@ exports[`Tests for BackButton component Renders correctly 1`] = `
       ]
     }
   >
-    <Text>
-      Back
-    </Text>
     <Text
       allowFontScaling={false}
       selectable={false}
